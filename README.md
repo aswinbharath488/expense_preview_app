@@ -36,7 +36,13 @@ intl: ^0.19.0
 
 ## 🚀 How to run
 
-1️⃣ Clone the repository:
+1️ Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/expense_preview_app.git
 cd expense_preview_app
+
+2 Install dependencies:
+flutter pub get
+
+3 Run the app:
+flutter run
