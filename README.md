@@ -38,7 +38,7 @@ intl: ^0.19.0
 
 1️ Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/expense_preview_app.git
+git clone https://github.com/aswinbharath488/expense_preview_app.git
 cd expense_preview_app
 
 2 Install dependencies:
