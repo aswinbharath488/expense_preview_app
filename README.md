@@ -1,16 +1,42 @@
 # expense_preview_app
 
-A new Flutter project.
+A simple **Expense Tracker Preview** built using **Flutter + BLoC + Clean Architecture**.
 
-## Getting Started
+Designed for Infinity Consultants technical evaluation.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Feature | Status |
+|--------|:-----:|
+| Load local JSON expense data | ✔ |
+| Search filter by title | ✔ |
+| Full-screen dark glass UI | ✔ |
+| Floating Action Button | ✔ |
+| Modal bottom sheet input form | ✔ |
+| Loading & Empty states | ✔ |
+| Clean architecture + BLoC pattern | ✔ |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏗️ Tech Stack / Dependencies
+
+| Package | Usage |
+|--------|------|
+| flutter_bloc | State Management (BLoC Pattern) |
+| equatable | Value comparison in States & Events |
+| intl | Date formatting |
+
+```yaml
+flutter_bloc: ^8.1.3
+equatable: ^2.0.5
+intl: ^0.19.0
+---
+
+## 🚀 How to run
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/expense_preview_app.git
+cd expense_preview_app
